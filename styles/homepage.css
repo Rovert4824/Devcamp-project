@@ -1,0 +1,16 @@
+/*Hero section styles*/
+.hero-section {
+    background-image: url(../Assets/THEMOON.jpg);
+    padding: 200px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-heading {
+    color: white;
+}
+.bottom-heading{
+    color: white;
+}
