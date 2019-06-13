@@ -1,0 +1,66 @@
+.footer {
+    height: 400px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.middle > .phone {
+    padding: 20px 40px 10px 0px;
+}
+.middle > .hours {
+    padding: 20px 0px 10px 0px;
+    color: #cea135;
+}
+.links-wrapper > .nav-link {
+    width: 150px;
+    text-align: center;
+}
+.links-wrapper > .nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.links-wrapper > .nav-link a:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+}
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.findme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2em;
+}
+.twitter {
+    padding: 0px 50px;
+}
+.findme > .twitter:hover {
+    color: #cea135;
+    font-size: 2.1rem;
+    transition: 0.5s;
+}
+.findme > .instagram:hover {
+    color: #cea135;
+    font-size: 2.1rem;
+    transition: 0.5s;
+}
+.findme > .facebook:hover {
+    color: #cea135;
+    font-size: 2.1rem;
+    transition: 0.5s;
+}

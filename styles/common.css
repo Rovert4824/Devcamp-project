@@ -1,7 +1,13 @@
-html{
-    background-color: rgb(87, 40, 87);
+*::before, *::after{
+    margin:0px;
+    padding:0px;
 }
+
 body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
 }
