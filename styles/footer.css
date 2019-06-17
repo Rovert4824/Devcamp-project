@@ -2,65 +2,79 @@
     height: 400px;
     background-color: #11122b;
     color: #cbcbcb;
+    font-family: 'Ubuntu Condensed', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 30px 100px;
+    height: 400px;
+    padding: 15px 100px;
 }
-.middle {
+.footer > .logo {
+    filter: brightness(80%);
+}
+.footer > .middle {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1em;
+    letter-spacing: 2px;
 }
-.middle > .phone {
+.footer > .middle > .phone {
     padding: 20px 40px 10px 0px;
 }
-.middle > .hours {
+.footer > .middle > .hours {
     padding: 20px 0px 10px 0px;
     color: #cea135;
+    font-size: 0.8em;
+    text-transform: uppercase;
 }
-.links-wrapper > .nav-link {
+.footer > .links-wrapper > .nav-link {
     width: 150px;
     text-align: center;
 }
-.links-wrapper > .nav-link a {
+.footer > .links-wrapper > .nav-link a {
     font-family: 'Ubuntu Condensed', sans-serif;
     color: white;
     text-decoration: none;
     transition: 0.5s;
 }
-.links-wrapper > .nav-link a:hover{
+.footer > .links-wrapper > .nav-link a:hover{
     color: #cea135;
     letter-spacing: 2px;
 }
-.links-wrapper {
+.footer > .links-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.findme {
+.footer > .findme { 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 2em;
+    font-size: 1.5em;
+    color: #cbcbcb;
 }
-.twitter {
+.footer > .findme > .twitter {
     padding: 0px 50px;
 }
-.findme > .twitter:hover {
+.footer > .findme > .twitter:hover {
     color: #cea135;
-    font-size: 2.1rem;
+    font-size: 1.6rem;
     transition: 0.5s;
 }
-.findme > .instagram:hover {
+.footer > .findme > .instagram:hover {
     color: #cea135;
-    font-size: 2.1rem;
+    font-size: 1.6rem;
     transition: 0.5s;
 }
-.findme > .facebook:hover {
+.footer > .findme > .facebook:hover {
     color: #cea135;
-    font-size: 2.1rem;
+    font-size: 1.6rem;
     transition: 0.5s;
+}
+.footer > .copyright-wrapper {
+    font-size: 0.7em;
+    color: #858585;
 }
