@@ -10,10 +10,12 @@
     height: 400px;
     padding: 15px 100px;
 }
-.footer > .logo {
+
+.footer>.logo {
     filter: brightness(80%);
 }
-.footer > .middle {
+
+.footer>.middle {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,60 +23,72 @@
     font-size: 1em;
     letter-spacing: 2px;
 }
-.footer > .middle > .phone {
+
+.footer>.middle>.phone {
     padding: 20px 40px 10px 0px;
 }
-.footer > .middle > .hours {
+
+.footer>.middle>.hours {
     padding: 20px 0px 10px 0px;
     color: #cea135;
     font-size: 0.8em;
     text-transform: uppercase;
 }
-.footer > .links-wrapper > .nav-link {
+
+.footer>.links-wrapper>.nav-link {
     width: 150px;
     text-align: center;
 }
-.footer > .links-wrapper > .nav-link a {
+
+.footer>.links-wrapper>.nav-link a {
     font-family: 'Ubuntu Condensed', sans-serif;
     color: white;
     text-decoration: none;
     transition: 0.5s;
 }
-.footer > .links-wrapper > .nav-link a:hover{
+
+.footer>.links-wrapper>.nav-link a:hover {
     color: #cea135;
     letter-spacing: 2px;
 }
-.footer > .links-wrapper {
+
+.footer>.links-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footer > .findme { 
+
+.footer>.findme {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 1.5em;
     color: #cbcbcb;
 }
-.footer > .findme > .twitter {
+
+.footer>.findme>.twitter {
     padding: 0px 50px;
 }
-.footer > .findme > .twitter:hover {
+
+.footer>.findme>.twitter:hover {
     color: #cea135;
     font-size: 1.6rem;
     transition: 0.5s;
 }
-.footer > .findme > .instagram:hover {
+
+.footer>.findme>.instagram:hover {
     color: #cea135;
     font-size: 1.6rem;
     transition: 0.5s;
 }
-.footer > .findme > .facebook:hover {
+
+.footer>.findme>.facebook:hover {
     color: #cea135;
     font-size: 1.6rem;
     transition: 0.5s;
 }
-.footer > .copyright-wrapper {
+
+.footer>.copyright-wrapper {
     font-size: 0.7em;
     color: #858585;
 }
